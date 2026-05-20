@@ -8,7 +8,7 @@ else:
         discount = int(total_price * 0.1)
         total_price = total_price - discount
     else:
-        discount = total_price * 0
+        discount = int(total_price * 0)
         total_price = total_price - discount
     
     print(f"Số tiền được giảm giá: {discount} VND")
